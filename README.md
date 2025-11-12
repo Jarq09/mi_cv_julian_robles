@@ -1,16 +1,23 @@
-# React + Vite
+# Proyecto: Currículum Vitae en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto consiste en la creación de un **Currículum Vitae digital** utilizando **React**.  
+El objetivo es aprender y aplicar los fundamentos de los **componentes funcionales**, el **renderizado de listas**, y el **renderizado condicional** dentro de una aplicación modular.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Estructura del Proyecto
 
-## React Compiler
+El proyecto se organiza en varios componentes que representan diferentes secciones del CV.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Estructura de archivos
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+│
+├── components/
+│ ├── CabeceraCV.jsx
+│ ├── Perfil.jsx
+│ ├── Educacion.jsx
+│ ├── Experiencia.jsx
+│ ├── StackTecnologias.jsx
+│
+└── App.jsx
