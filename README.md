@@ -1,23 +1,24 @@
-# Proyecto: Currículum Vitae en React
+Proyecto: CV en React
 
-## Descripción
+Este proyecto es un currículum digital hecho con React.
+Cada parte del CV se construye como un componente independiente para practicar:
 
-Este proyecto consiste en la creación de un **Currículum Vitae digital** utilizando **React**.  
-El objetivo es aprender y aplicar los fundamentos de los **componentes funcionales**, el **renderizado de listas**, y el **renderizado condicional** dentro de una aplicación modular.
+Componentes funcionales
 
-## Estructura del Proyecto
+Renderizado de listas
 
-El proyecto se organiza en varios componentes que representan diferentes secciones del CV.
+Renderizado condicional
 
-### Estructura de archivos
+Las secciones incluyen:
 
-src/
-│
-├── components/
-│ ├── CabeceraCV.jsx
-│ ├── Perfil.jsx
-│ ├── Educacion.jsx
-│ ├── Experiencia.jsx
-│ ├── StackTecnologias.jsx
-│
-└── App.jsx
+Cabecera con nombre y foto
+
+Perfil personal
+
+Educación
+
+Experiencia laboral
+
+Tecnologías utilizadas
+
+El objetivo es aprender cómo organizar una aplicación React de forma modular y reutilizable.
